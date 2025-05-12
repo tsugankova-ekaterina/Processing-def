@@ -1,2 +1,34 @@
 # Processing-def
-A desktop program for processing and analyzing rock deformation signals
+Прототип приложения для обработки и анализа сигналов деформаций горных пород с помощью преобразования Гильберта-Хуанга и нейронных сетей с целью поиска признаков предвестника землетрясения.
+
+## Требования
+
+- Python версии 3.11.8
+- MATLAB версии R2024b
+
+## Установка
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/tsugankova-ekaterina/Processing-def.git
+2. Создайте виртуальное окружение:
+python -m venv venv
+3. Активируйте окружение:
+На Windows:
+venv\Scripts\activate
+На macOS/Linux:
+source venv/bin/activate
+4. Установите необходимые библиотеки:
+pip install -r requirements.txt
+
+## Использование
+1. Запустите приложение, выполнив файл Processing_def.py:
+python Processing_def.py
+2. После запуска приложения вы увидите главное окно, где можете:
+Загружать сигналы из CSV или других форматов.
+Применять различные методы обработки сигналов, такие как нейронные сети и декомпозиция.
+Визуализировать результаты на графиках.
+
+## MATLAB Engine
+Приложение использует MATLAB Engine.  
+Для работы с MATLAB Engine необходимо установить MATLAB версии R2024b, которая совместима с Python версии 3.11.8. Убедитесь, что MATLAB установлен и добавлен в переменную окружения PATH.
