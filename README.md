@@ -15,10 +15,10 @@
    ```bash
    python -m venv venv
 4. Активируйте окружение:
-   На Windows:
+На Windows:
    ```bash
    venv\Scripts\activate
-   На macOS/Linux:
+На macOS/Linux:
    ```bash
    source venv/bin/activate
 6. Установите необходимые библиотеки:
