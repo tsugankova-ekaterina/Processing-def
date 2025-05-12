@@ -12,18 +12,27 @@
    ```bash
    git clone https://github.com/tsugankova-ekaterina/Processing-def.git
 2. Создайте виртуальное окружение:
-python -m venv venv
-3. Активируйте окружение:
-На Windows:
-venv\Scripts\activate
-На macOS/Linux:
-source venv/bin/activate
-4. Установите необходимые библиотеки:
-pip install -r requirements.txt
+   ```bash
+   python -m venv venv
+4. Активируйте окружение:
+   На Windows:
+   ```bash
+   venv\Scripts\activate
+   На macOS/Linux:
+   ```bash
+   source venv/bin/activate
+6. Установите необходимые библиотеки:
+   ```bash
+   pip install -r requirements.txt
+
+## Важно
+
+Перед началом работы необходимо распаковать архив `networks/autoencoder_sig910aug_mse.rar` в папку `networks`.
 
 ## Использование
 1. Запустите приложение, выполнив файл Processing_def.py:
-python Processing_def.py
+   ```bash
+   python Processing_def.py
 2. После запуска приложения вы увидите главное окно, где можете:
 Загружать сигналы из CSV или других форматов.
 Применять различные методы обработки сигналов, такие как нейронные сети и декомпозиция.
